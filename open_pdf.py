@@ -6,6 +6,7 @@ from io import open
 from PyQt5 import QtWidgets, QtGui, QtCore
 import sys
 
+
 def read_pdf(pdf):
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
